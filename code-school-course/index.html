@@ -8,9 +8,21 @@
 </head>
 
 <body>
-    <h1>{{ "Hi" + " angularJS" }}</h1>
+    <div class="container">
+        <hr>
+        <div ng-controller="StoreCtrl as store">
+            <h1>{{store.product.name}}</h1>
+            <h2>{{store.product.price}}</h2>
+            <p>{{store.product.description}}</p>
+            <button class="btn btn-success" ng-show="store.product.canPurchase">
+                Buy
+            </button>
+        </div>
+        <hr>
+    </div>
     <script src="../lib/angular.min.js"></script>
     <script src="app.js"></script>
+    <script src="store.ctrl.js"></script>
 </body>
 
 </html>
