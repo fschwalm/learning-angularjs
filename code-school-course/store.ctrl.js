@@ -5,15 +5,25 @@ var gems = [{
     name: 'Crystal',
     price: 2.95,
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod',
-    canPurchase: true
+    canPurchase: true,
+    images: [{
+        full: 'img/blue-gem.png'
+    }]
+
 }, {
     name: 'Ruby',
     price: 2,
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod',
-    canPurchase: true
+    canPurchase: true,
+    images: [{
+        full: 'img/red-gem.png'
+    }]
 }, {
-    name: 'Yellow gem',
+    name: 'Green gem',
     price: 5,
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod',
-    canPurchase: true
+    canPurchase: true,
+    images: [{
+        full: 'img/green-gem.png'
+    }]
 }];
