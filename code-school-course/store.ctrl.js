@@ -8,7 +8,16 @@ var gems = [{
     canPurchase: true,
     images: [{
         full: 'img/blue-gem.png'
-    }]
+    }],
+    reviews: [ { 
+        stars: 5,
+        body: "I love this product!",
+ author: "joe@thomas.com" 
+    },  { 
+        stars: 1,
+        body: "This product sucks",
+ author: "tim@hater.com" 
+    } ]
 
 }, {
     name: 'Ruby',
@@ -17,7 +26,16 @@ var gems = [{
     canPurchase: true,
     images: [{
         full: 'img/red-gem.png'
-    }]
+    }],
+    reviews: [ { 
+        stars: 5,
+        body: "I love this product!",
+ author: "joe@thomas.com" 
+    },  { 
+        stars: 1,
+        body: "This product sucks",
+ author: "tim@hater.com" 
+    } ]
 }, {
     name: 'Green gem',
     price: 5,
@@ -25,5 +43,14 @@ var gems = [{
     canPurchase: true,
     images: [{
         full: 'img/green-gem.png'
-    }]
+    }],
+    reviews: [ { 
+        stars: 5,
+        body: "I love this product!",
+ author: "joe@thomas.com" 
+    },  { 
+        stars: 1,
+        body: "This product sucks",
+ author: "tim@hater.com" 
+    } ]
 }];

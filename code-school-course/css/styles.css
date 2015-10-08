@@ -1,4 +1,19 @@
 img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    margin-left: calc(50% - 100px);
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.container {
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+blockquote cite {
+    display: block;
 }
