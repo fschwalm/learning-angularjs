@@ -13,8 +13,7 @@
         <h1>Gems Store</h1>
         <ul class="list-group">
             <li class="list-group-item" ng-repeat="product in store.products">
-                <h3 ng-include src="'templates/product-title.html'">
-                </h3>
+                <h3> <product-title> </product-title> </h3>
                 <img ng-src="{{product.images[0].full}}" />
                 <section ng-controller="PanelController as panel">
                     <ul class="nav nav-pills">
@@ -88,6 +87,7 @@
         <script src="store.ctrl.js"></script>
         <script src="panel.ctrl.js"></script>
         <script src="review.ctrl.js"></script>
+        <script src="directives/product-title-directive.js"></script>
 </body>
 
 </html>
