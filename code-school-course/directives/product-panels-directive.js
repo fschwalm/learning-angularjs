@@ -1,4 +1,4 @@
-angular.module('store').directive('productPanels', function(){
+angular.module('products').directive('productPanels', function(){
     return {
         restrict : 'E',
         templateUrl : 'templates/product-panels.html',

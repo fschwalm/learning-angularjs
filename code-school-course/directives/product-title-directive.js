@@ -1,4 +1,4 @@
-angular.module('store').directive('productTitle', function(){
+angular.module('products').directive('productTitle', function(){
     return {
         restrict : 'A',
         templateUrl : 'templates/product-title.html'

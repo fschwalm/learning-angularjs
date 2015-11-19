@@ -1,4 +1,4 @@
-angular.module('store').controller('ReviewController', function() {
+angular.module('products').controller('ReviewController', function() {
 
     this.review = {};
 
