@@ -1,0 +1,29 @@
+{
+  "name": "rodrigo-branas-course",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "bsync": "browser-sync start --server --files 'src/**/*'",
+    "start": "npm run bsync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fschwalm/learning-angularjs.git"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "Fagner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fschwalm/learning-angularjs/issues"
+  },
+  "homepage": "https://github.com/fschwalm/learning-angularjs#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1"
+  },
+  "dependencies": {
+    "angular": "^1.4.9",
+    "bootstrap": "^3.3.6"
+  }
+}

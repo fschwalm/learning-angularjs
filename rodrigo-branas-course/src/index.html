@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="listaTelefonica">
+
+<head>
+    <title>Lista Telefônica</title>
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body ng-controller="listaTelefonicaController as ctrl">
+    <h3>Lista Telefônica</h3>
+    <div class="jumbotron center">
+        <table class="table table-striped">
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+            <tr ng-repeat="contato in ctrl.contatos">
+                <td>{{contato.nome}}</td>
+                <td>{{contato.telefone}}</td>
+            </tr>
+        </table>
+        <hr />
+        <input class="form-control" type="text" ng-model="contato.nome" placeholder="Nome" />
+        <input class="form-control" type="text" ng-model="contato.telefone" placeholder="Telefone" />
+        <button class="btn btn-primary btn-block" ng-click="ctrl.adicionarContato(contato)">Adicionar Contato</button>
+    </div>
+
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

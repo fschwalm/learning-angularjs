@@ -1,0 +1,13 @@
+body div {
+    width: 50%;
+    height: 500px;
+    padding: 3rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+}
